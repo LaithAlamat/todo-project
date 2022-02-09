@@ -5,39 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About ToDo</title>
+<link rel="stylesheet" href="about.css">
+
 </head>
 <body>
 
     <header>
     <img src="./assets/HomoLogo.webp" alt="HomeLogo" width="100px" height="100px">
-    <h1>TodoList</h1>
-    <a href="index.html">Home</a>
+   <nav> <a href="index.html">Home</a>
+    <a href="about.html" class="headertag">About us</a>
+</nav>
+   
 </header>
 
 <main>
- <section>About Me
+ <section class="info">
     
  
-    <h2>Laith Alalamat</h2>
-    <img src="./assets/CV Picture-min.JPG" alt=" LaithAlalamat"  width="100px" height="100px">
-<p>A full stack trainee developer. Currently enrolled in a DotNet software development bootcamp, hence I am looking forward to sharpen my skills in web development</p>
+    <h2 class="myname">Laith Alalamat</h2>
 
+    <div class="data">
+    <img src="./assets/CV Picture-min.JPG" alt=" LaithAlalamat" class="aboutme">
+<p class="aboutme" id="para">A full stack trainee developer. Currently enrolled in a DotNet software development bootcamp, hence I am looking forward to sharpen my skills in web development</p>
+</div>
  </section>
 
  <section>
 
-    <h2>Contact Information</h2>
-    <form action="">
-<label for="name">Name:</label>
-    <input type="text" name="Name" placeholder="Enter Your Full Name...">
-   
+    <h2 class="contactme">Contact Me</h2>
+    <form action=""  class="contact">
+
+        <div><label for="name">Name:</label>
+            <input type="text" name="Name">
+        </div>
+
+   <div>
    <label for="email">Email:</label>
-    <input type="email" name="email" placeholder="Enter Your Email Address...">
-   <label for="number">Phone Number:</label>
-    <input type="text" name="number" placeholder="Enter Your Phone Number...">
+    <input type="email" name="email">
+</div>
+
+    <div>
+    <label for="number">Phone Number:</label>
+    <input type="text" name="number">
+</div>
+
+<div>
     <label for="message">Enter Your Message:</label>
         <textarea name="message"   cols="30" rows="10"> </textarea>
-    <input type="submit" > 
+    </div>
+
+    <input type="submit" value="Send" class="button"> 
 </form>
  </section>
 
