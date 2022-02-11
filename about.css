@@ -61,11 +61,16 @@ align-items: center;
 
 }
 
+.info {
+
+    height: 200px;
+}
+
 .myname { 
 
     color: red;
 
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 h2 {
@@ -91,7 +96,7 @@ flex-direction: column;
 
     color: darkred;
 
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 30px;
 }
 
@@ -109,7 +114,7 @@ flex-direction: column;
     width: 520px;
 padding: 20px;
     height: 80px;
-    margin-top: 10%;
+    margin-top: 20px;
     margin-left: 20%;
 }
 
@@ -133,6 +138,15 @@ justify-content: space-between;
 form div input, form div textarea {
 
 width: 50%;
+
+
+}
+
+
+form div textarea {
+
+height: 55px;
+
 }
 
 .data {
